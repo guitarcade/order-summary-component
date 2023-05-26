@@ -5,10 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
     <title>Frontend Mentor | Order summary card</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    Order Summary You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
-    Annual Plan $59.99/year Change Proceed to Payment Cancel Order
+  <body
+    class="grid place-content-center min-h-screen font-red-hat-display bg-mobile sm:bg-desktop bg-pale-blue bg-no-repeat"
+  >
+    <main>
+      <div class="card max-w-sm bg-white rounded-xl overflow-hidden m-4">
+        <img src="images/illustration-hero.svg" alt="" />
+        <div class="p-10 grid gap-4 text-center">
+          <h1 class="text-2xl font-bold text-dark-blue">Order Summary</h1>
+          <p class="text-desaturated-blue text-sm">
+            You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+          </p>
+          <div class="flex items-center bg-very-pale-blue justify-between text-sm p-4 rounded-lg">
+            <div class="flex gap-4">
+              <img src="images/icon-music.svg" />
+              <div class="grid">
+                <p class="font-bold">Annual Plan</p>
+                <p class="text-desaturated-blue">$59.99/year</p>
+              </div>
+            </div>
+            <a href="#" class="text-bright-blue underline">Change</a>
+          </div>
+          <button class="bg-bright-blue text-white p-3 rounded-lg text-sm font-bold shadow-xl shadow-bright-blue/20">
+            Proceed to Payment
+          </button>
+          <button class="text-desaturated-blue text-sm font-bold p-2">Cancel Order</button>
+        </div>
+      </div>
+    </main>
+
+    <!-- Order Summary You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+    Annual Plan $59.99/year Change Proceed to Payment Cancel Order -->
   </body>
 </html>

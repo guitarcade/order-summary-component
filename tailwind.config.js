@@ -3,17 +3,20 @@ module.exports = {
   content: ["*.html"],
   theme: {
     colors: {
-      // 'dark-cyan-400':'hsl(158, 36%, 37%)',
-      // 'dark-cyan-700':'hsl(158, 36%, 17%)',
-      // 'cream':'hsl(30, 38%, 92%)',
-      // 'very-dark-blue': 'hsl(212, 21%, 14%)',
-      // 'dark-grayish-blue': 'hsl(228, 12%, 48%)',
-      // 'white': 'hsl(0, 0%, 100%)'
+      'pale-blue': 'hsl(225, 100%, 94%)',
+      'bright-blue':'hsl(245, 75%, 52%)',
+      'very-pale-blue': 'hsl(225, 100%, 98%)',
+      'desaturated-blue': 'hsl(224, 23%, 55%)',
+      'dark-blue': 'hsl(223, 47%, 23%)',
+      'white': 'hsl(0, 0%, 100%)',
     },
     extend: {
+      backgroundImage: {
+        'desktop':"url('images/pattern-background-desktop.svg')",
+        'mobile':"url('images/pattern-background-mobile.svg')",
+      },
       fontFamily: {
-        // 'montserrat'  : ['Montserrat', 'sans-serif'],
-        // 'fraunces'  : ['Fraunces', 'serif'],
+        'red-hat-display'  : ['Red Hat Display', 'sans-serif'],
       },
     },
   },
