@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://order-summary-component-nine-rho.vercel.app/)
+- [Live Site URL](https://order-summary-component-nine-rho.vercel.app/)
 
 ## My process
 
